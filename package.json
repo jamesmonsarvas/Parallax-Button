@@ -1,0 +1,25 @@
+{
+  "name": "parallax-button",
+  "version": "1.0.0",
+  "description": "Parallax Button",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass --include-path scss assets/scss/style.scss style.css --output-style compressed",
+    "watch": "nodemon -e scss -x \"npm run css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesmonsarvas/Parallax-Button.git"
+  },
+  "author": "James Monsarvas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesmonsarvas/Parallax-Button/issues"
+  },
+  "homepage": "https://github.com/jamesmonsarvas/Parallax-Button#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.3"
+  }
+}
